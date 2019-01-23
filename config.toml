@@ -1,0 +1,23 @@
+baseURL = "http://gomezarceo.mx/"
+languageCode = "en-us"
+title = "Gomez Arceo"
+theme = "hallo"
+
+[Author]
+  name = "Alejandro Gomez"
+
+[params]
+  [[params.links]]
+    icon = "github"
+    title = "Github"
+    url = "https://github.com/alexserver"
+  [[params.links]]
+    icon = "twitter"
+    title = "Twitter"
+    url = "https://twitter.com/alexserver"
+  [[params.links]]
+    icon = "linkedin"
+    title = "Linked In"
+    url = "https://www.linkedin.com/in/alejandrogomezarceo/"
+  [params.colors]
+    background = "#70bddb"
