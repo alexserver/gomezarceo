@@ -1,4 +1,4 @@
-baseURL = "http://gomezarceo.mx/"
+baseURL = "https://gomezarceo.mx/"
 languageCode = "en-us"
 title = "Gomez Arceo"
 theme = "hallo"
