@@ -1,17 +1,21 @@
 baseURL = "https://gomezarceo.mx/"
 languageCode = "en-us"
-title = "Gomez Arceo"
+title = "Alejandro Gomez"
 theme = "m10c"
 
 [Author]
   name = "Alejandro Gomez"
 
 # And you can even create generic menu
-# [[menu.main]]
-#   identifier = "about"
-#   name       = "About"
-#   url        = "/about"
+[[menu.main]]
+  identifier = "en"
+  name       = "English"
+  url        = "/about/en"
 
+[[menu.main]]
+  identifier = "es"
+  name       = "Español"
+  url        = "/about/es"
 # [[menu.main]]
 #   identifier = "blog"
 #   name       = "Blog"
@@ -19,7 +23,7 @@ theme = "m10c"
 
 [params]
   avatar = "images/portrait.jpg"
-  description = "I am a web engineer with a passion for creating software that impacts the lives of people."
+  description = "I like to create high quality web products"
   mainSections = ["about"]
 
   [[params.social]]
