@@ -10,12 +10,12 @@ theme = "m10c"
 [[menu.main]]
   identifier = "en"
   name       = "English"
-  url        = "/about/en"
+  url        = "/"
 
 [[menu.main]]
   identifier = "es"
   name       = "Español"
-  url        = "/about/es"
+  url        = "/index_es"
 # [[menu.main]]
 #   identifier = "blog"
 #   name       = "Blog"

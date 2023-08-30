@@ -1,10 +1,9 @@
 ---
-title: "Hola"
+title: "Hi there!"
 draft: false
 description: "A brief description of me"
 ---
 
-#### Hi there!
 
 I'm Alejandro, a Mexican Web Engineer, currently living in Mérida, one of the most gorgeous cities around the Yucatan Península, working remotely for International companies.
 I enjoy traveling and exploring new places and cultures around the world while working asynchronously with remote teams, building impactful web products for high-value companies.
