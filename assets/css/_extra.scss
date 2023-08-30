@@ -2,8 +2,14 @@
   border-width: 0px;
 }
 
-img {
-  width: 75%;
+img.app-header-avatar {
+  object-fit: cover;
+}
+
+img[src*="#thumb"] {
+  max-width: 100%;
+  max-height: 300px;
   margin: 0 auto;
   padding: 0;
+  object-fit: cover;
 }
