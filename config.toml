@@ -23,7 +23,7 @@ theme = "m10c"
 
 [params]
   avatar = "images/portrait.jpg"
-  description = "I like to create high quality web products"
+  description = "Passionate about always evolving and learning. I speak JS, and I love it, still, I can adapt and enjoy working with other stacks though. Adaptation ends suffering."
   mainSections = ["about"]
 
   [[params.social]]
