@@ -3,7 +3,7 @@ title: "About me"
 draft: false
 ---
 
-I'm a Web Engineer, mainly focused on Front End ecosystems, like [React](https://react.dev/) and [VueJs](https://vuejs.org/), Although I've worked as a Full Stack with [PHP](https://www.php.net/), [Elixir](https://elixir-lang.org/) and [NodeJs](https://nodejs.org/en), I feel more comfortable and I think I'm more productive working with the UI than with servers.
+I'm a Senior Web Engineer, mainly focused on Front End ecosystems, like [React](https://react.dev/) and [VueJs](https://vuejs.org/), Although I've worked as a Full Stack with [PHP](https://www.php.net/), [Elixir](https://elixir-lang.org/) and [NodeJs](https://nodejs.org/en), I feel more comfortable and I think I'm more productive working with the UI than with servers.
 
 In the last years, I've worked with teams building SPAs (Single Page Apps) for companies like [Freestar](https://freestar.com/), [Spot2Nite](https://www.spot2nite.com/), and [Convert](https://www.convert.com/) using [Vue](https://vuejs.org/), [React](https://react.dev/), and [RactiveJs](https://ractive.js.org/) respectively.
 

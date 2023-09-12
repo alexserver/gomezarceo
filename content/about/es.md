@@ -3,7 +3,7 @@ title: "Acerca de mi"
 draft: false
 ---
 
-Soy un Ingeniero Web, enfocado principamente en ecosistemas Front End como [React](https://react.dev/) y [VueJs](https://vuejs.org/) aunque también he trabajado como Full Stack en [PHP](https://www.php.net/), [Elixir](https://elixir-lang.org/) y [NodeJs](https://nodejs.org/en), prefiero trabajar en ecosistemas Front End, siendo más productivo con la UI que con los servidores.
+Soy un Ingeniero Web Senior, enfocado principamente en ecosistemas Front End como [React](https://react.dev/) y [VueJs](https://vuejs.org/) aunque también he trabajado como Full Stack en [PHP](https://www.php.net/), [Elixir](https://elixir-lang.org/) y [NodeJs](https://nodejs.org/en), prefiero trabajar en ecosistemas Front End, siendo más productivo con la UI que con los servidores.
 
 En los últimos años he colaborado en proyectos construyendo SPAs (Single Page Apps) para empresas como [Freestar](https://freestar.com/), [Spot2Nite](https://www.spot2nite.com/) y [Convert](https://www.convert.com/) usando [Vue](https://vuejs.org/), [React](https://react.dev/) y [RactiveJs](https://ractive.js.org/) respectivamente.
 
