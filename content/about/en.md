@@ -3,13 +3,14 @@ title: "About me"
 draft: false
 ---
 
-I'm a Senior Web Engineer, mainly focused on Front End ecosystems, like [React](https://react.dev/) and [VueJs](https://vuejs.org/), Although I've worked as a Full Stack with [PHP](https://www.php.net/), [Elixir](https://elixir-lang.org/) and [NodeJs](https://nodejs.org/en), I feel more comfortable and I think I'm more productive working with the UI than with servers.
+I’m a Senior Web Engineer with a primary focus on Front End Applications. I have over 18 years of experience working with Web Technologies, with a strong emphasis on constructing User Interfaces.  
+I enjoy building amazing Web Products transforming UI/UX designs into highly maintainable, efficient, well-tested, and readable code solutions.
 
-In the last years, I've worked with teams building SPAs (Single Page Apps) for companies like [Freestar](https://freestar.com/), [Spot2Nite](https://www.spot2nite.com/), and [Convert](https://www.convert.com/) using [Vue](https://vuejs.org/), [React](https://react.dev/), and [RactiveJs](https://ractive.js.org/) respectively.
+My dedication to the products I work on is comprehensive, from end to end. I recognize the significance of meeting deadlines while consistently delivering high-quality software. 
 
-I can work with a Web App Product from End to End, bootstrapping the repo from scratch, designing the project architecture, configuring the test suite, and setting up the CI/CD pipeline. I can even adapt to existing environments and learn the required technologies to be proficient in the project.
+I’m an advocate of the Kaizen principle, which promotes the idea that constant, incremental improvement is the key to achieving lasting and impactful success.
 
-I enjoy working with all types of teams, from cross-functional to homogeneous ones, depending on the necessities of the company. I value investing in developing communication skills, to craft the art of working with people, for I believe soft skills are protagonists in any working environment, and they impact heavily on the success or failure of solving problems in highly efficient teams.
+My mantra is _“Progress, not perfection”._
 
 
 # Work Experience
@@ -19,7 +20,10 @@ I enjoy working with all types of teams, from cross-functional to homogeneous on
 Javascript Engineer  
 Apr 2022 - August 2023
 
-I worked as a Front End Engineer, side to side with Product to bring new features and fix bugs to the admin dashboard of our main product, Pubfig. I also collaborated with a high-paced project to build the next generation of our Public Dashboard, made in [Vue3](https://vuejs.org/), to be finished and delivered to production in less than 4 months.  
+I helped Freestar to maintain and bring new features to the Main Dashboard, used by their internal people, the Ad Associates, to deliver the best service to Freestar Publishers, working alongside Product Managers and a highly skilled cross-functional team. 
+
+I also was part of the team that built the next generation of their Public Dashboard, the main interface to the Publishers that served cutting-edge data reports, in a record time of 3 months within the company’s history.
+
 
 ✅ Relevant Tech:   
 - ES6
@@ -32,7 +36,10 @@ I worked as a Front End Engineer, side to side with Product to bring new feature
 Full Stack Developer  
 Jul 2021 - Apr 2022  
 
-I worked as a Full Stack Dev, working with their Admin CMS built in [Elixir](https://elixir-lang.org/) and [Phoenix](https://www.phoenixframework.org/), and contributing to the creation of their Reservations Web App, made with [React](https://react.dev), [Material UI](https://mui.com/), and [NextJs](https://nextjs.org/).  
+I helped Spot2nite to maintain their Reservations API Services as well as helped to build their first version of the Public Web Reservations Page, using React and NextJs.
+
+One of my duties as Full Stack Engineer was to learn and connect their internal API ecosystem with external Parks APIs, dealing with the challenge of normalizing external data schemes to adjust into our internal schemes, as well as orchestrating the communication with different data flow pipelines for the different Parks API providers.
+
 
 ✅ Relevant Tech:   
 - Elixir
@@ -48,10 +55,11 @@ I worked as a Full Stack Dev, working with their Admin CMS built in [Elixir](htt
 Web Engineer  
 Jan 2016 - Jun 2021  
 
-My responsibilities here were to keep Convert’s UI at its best, evolving through the years, and adapting the product to the market needs by adding the features it demands.  
-I helped Convert to  iterate their Web App through 3 main generations.    
-The first version of their SPA was made with [jQuery](https://jquery.com/) and [Bootstrap](https://getbootstrap.com/), the second one we used [RactiveJs](https://ractive.js.org), ending up with [React](https://react.dev) in the third and current version by the time I left the company.  
-It was very delightful to work with a company that is driven by a conscious business culture.   
+My responsibilities in this role included maintaining Convert's UI at peak performance. This entailed continuous development and enhancement of their Web Dashboard, which has served their clients over the years. Additionally, I was tasked with aligning the product with market demands by incorporating the necessary features.
+
+I also helped Convert to  iterate their Web Dashboard through 3 main generations.  
+We started the first version in 2012 (I was a contractor by then) designing an SPA using jQuery. Over the time we evolved alongside the tech industry using different Javascript frameworks, such as Ractive and React, taking advantage of cutting-edge technologies and design patterns to shape the User Experience with Convert customers.
+  
 
 ✅ Relevant Tech:   
 - Typescript
@@ -69,8 +77,10 @@ It was very delightful to work with a company that is driven by a conscious busi
 Node.js Web Developer  
 Jan 2014 - Aug 2015  
 
-I worked at Method Exists to create a Rich Data Application for the oil industry in Canada.  
-Our goal was to provide Real-Time Data Applications with the help of Web Sockets and RactiveJs. We created a comprehensive library of complex UI components using Ractive as a dynamic UI library. On the server side, we used ExpressJs as Web Server and MongoDB as a NoSql Data solution.  
+We developed a Rich Data Application from the ground up for our primary client in the Canadian oil industry. Our objective was to deliver Real-Time Data Applications utilizing Web Sockets and an SPA. We created a comprehensive library of complex UI components using Ractive as a Reactive DOM javascript library. 
+
+Our main challenge was to deliver a huge amount of data to be updated in real time by the user, rendering a nested structure of complex Web Components in the shape of Web Forms and Rich Data Tables, such as how Google Sheets works. We had to iterate through some versions of the app to achieve the performance and speed the client needed for their daily data transactions.
+
 
 ✅ Relevant Tech:   
 - Ractive.js
@@ -84,21 +94,21 @@ To view further you can visit my [LinkedIn Profile](https://www.linkedin.com/in/
 
 # Skills
 
-- Languages  
+- **Languages**   
   Javascript (ES2022), Typescript, Php, Elixir
 
-- Front End Frameworks/Libraries  
+- **Front End Frameworks/Libraries**   
   React, Ractive, Next.js, Material UI
 
-- Back End Frameworks   
+- **Back End Frameworks**   
   JS -> Node, Express, Next.js  
   Elixir -> Phoenix  
   Php -> Yii  
 
-- Dev Ops tools  
+- **Dev Ops tools**   
   Vagrant, Docker  
 
-- Testing tools  
+- **Testing tools**  
   Jest, Mocha.  
 
 # Education

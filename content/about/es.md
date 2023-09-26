@@ -3,13 +3,14 @@ title: "Acerca de mi"
 draft: false
 ---
 
-Soy un Ingeniero Web Senior, enfocado principamente en ecosistemas Front End como [React](https://react.dev/) y [VueJs](https://vuejs.org/) aunque también he trabajado como Full Stack en [PHP](https://www.php.net/), [Elixir](https://elixir-lang.org/) y [NodeJs](https://nodejs.org/en), prefiero trabajar en ecosistemas Front End, siendo más productivo con la UI que con los servidores.
+Soy un Ingeniero Web Senior, enfocado principamente en Aplicaciones Front End. Tengo 18 años de experiencia trabajando con Tecnologías Web, con un fuerte énfasis en construir Interfaces de Usuario.
 
-En los últimos años he colaborado en proyectos construyendo SPAs (Single Page Apps) para empresas como [Freestar](https://freestar.com/), [Spot2Nite](https://www.spot2nite.com/) y [Convert](https://www.convert.com/) usando [Vue](https://vuejs.org/), [React](https://react.dev/) y [RactiveJs](https://ractive.js.org/) respectivamente.
+Disfruto construyendo increíbles Productos Web transformando diseños UX/UI en código legible, eficiente, mantenible y bien probado.
 
-Puedo trabajar con una Web App de principio a fin, desde la construcción del proyecto desde cero, configurar los tests, hasta el setup del CI/CD. También puedo adaptarme a entornos ya existentes y aprender las tecnologías que sean necesarias para ser eficiente en el proyecto. Por supuesto es más fácil para mí desenvolverme en tecnología nueva en Front End que en Back End.
+Mi dedicación a los productos que trabajo es amplia, de principio a fin. Entiendo la importancia de cumplir las fechas límite de entrega y balancearlo con la entrega de código de alta calidad.
+Soy un defensor del principio Kaizen, el cual promueve la idea de que la mejora constante y continuo día a día es la clave para tener cambios gigantescos de gran impacto a largo plazo.
 
-Me gusta trabajar con equipos multidisciplinarios, que tienen buenas habilidades de comunicación. A lo largo de mi carrera he aprendido a desarrollar buenos soft skills, porque creo que gran parte del trabajo en la industria es saber comunicarse con las personas adecuadamente para resolver un problema.
+Mi mantra es _"Progreso, no perfección"._
 
 
 # Experiencia de Trabajo
@@ -18,7 +19,10 @@ Me gusta trabajar con equipos multidisciplinarios, que tienen buenas habilidades
 Javascript Engineer  
 Abril 2022 - Agosto 2023  
 
-Trabajé como Front End Engineer, trabajando lado a lado con Producto para crear nuevos features y dar mantenimiento a las aplicaciones privadas y públicas que usan los clientes, hechas en Vue2. También participé en un proyecto para construir la nueva versión del Public Dashboard en [Vue3](https://vuejs.org/).  
+Ayudé a Freestar a dar mantenimiento y crear nuevas funcionalidades al Panel de Administración Principal, un producto usado internamente para las operaciones de la empresa que permite a los asociados de publicidad brindar un excelente servicio a sus clientes.  
+Trabajé lado a lado con Gerentes de Producto y un equipo altamente talentoso con diferentes disciplinas.
+
+También fui parte del equipo que construyó la nueva versión del Panel de Administración Público, la interfaz que conecta los servicios de la empresa con sus clientes, brindando reportes de última generación, en un tiempo récord de 3 meses dentro de la historia de la compañía.
 
 ✅ Tecnología relevante:   
 - ES6
@@ -31,7 +35,10 @@ Trabajé como Front End Engineer, trabajando lado a lado con Producto para crear
 Full Stack Developer  
 Julio 2021 - Abril 2022  
 
-Serví en Spot2nite como Full Stack Dev, trabajando con su Admin CMS, hecho en [Elixir](https://elixir-lang.org/) con [Phoenix](https://www.phoenixframework.org/), para después trabajar en la creación de su página pública de reservaciones hecha en [React](https://react.dev), [Material UI](https://mui.com/) y [NextJs](https://nextjs.org/).  
+Ayudé a Spo2nite a mantener las API de sus servicios de reservaciones así como la construcción de la primera versión de su Página Web de Reservaciones, usando React y NextJs.
+
+Uno de mis deberes como Ingeniero Full Stack fue aprender a conectar su ecosistema interno de reservaciones con las APIs externas de los parques para RVs, y lidiar con adaptar los esquemas de datos externos con los esquemas de Spot2nite, así como ayudar a orquestar el flujo de datos en sus procesos de reservaciones.
+
 
 ✅ Tecnología relevante:  
 - Elixir
@@ -46,10 +53,13 @@ Serví en Spot2nite como Full Stack Dev, trabajando con su Admin CMS, hecho en [
 ### 🎖️ Convert.com  
 Web Engineer  
 Enero 2016 - Junio 2021  
-Mis responsabilidades aquí fueron dar mantenimiento a la Web App de Convert.com a través de los años que estuve con ellos, adaptando el producto a las necesidades del mercado de la mano con el equipo de producto en la empresa.
-Colaboré con un equipo altamente talentoso para iterar su Producto Web a través de 3 versiones principales.
-Construímos una SPA en su primera versión con [jQuery](https://jquery.com/) y [Bootstrap](https://getbootstrap.com/) para después migrar a [RactiveJs](https://ractive.js.org) en su segunda versión, y terminar con [React](https://react.dev) en la tercera y actual versión al momento de dejar la empresa.
-Fue un completo agasajo ser parte de una empresa consciente de su impacto social.
+
+Mis responsabilidades en este rol consistieron en mantener la Interfaz Web de Convert en su mejor estado. Esto incluia desarrollo continuo y mejoras de su Panel de Administración Web, el cual ha servido a sus clientes a través de los años. También, estuve a cargo de alinear las funcionalidades del producto las necesidades que el mercado demandaba en su tiempo.
+
+Ayudé a Convert a iterar su Panel de Administración a través de 3 principales generaciones.
+
+Hicimos la primera versión en 2012 (Era contractor en ese entonces) siendo ésta una SPA usando jQuery y librerías de ruteo y template engines independientes. Luego evolucionamos junto con la industria Tech usando diferentes frameworks Javascript, como Ractive, y React, aprovechando las tecnologías de vanguardia del momento y los diferentes patrones de diseño que dieron forma a las siguientes interfaces de usuario de Convert.
+
 
 ✅ Tecnología relevante:   
 - Typescript
@@ -66,7 +76,9 @@ Fue un completo agasajo ser parte de una empresa consciente de su impacto social
 ### 🎖️ Method Exists  
 Node.js Web Developer  
 📅 Jan 2014 - Aug 2015  
+
 Trabajé con Method Exists para crear una Aplicación administrativa de información enriquecida para la industria petrolera en Canadá.
+
 Nuestro objetivo fue proporcionar una interfaz que entregase datos en tiempo real con ayuda de la mano de Web Sockets y RactiveJs. Para el proyecto tuvimos que crear una extensa librería de componentes UI usando RactiveJs como librería base. En el lado del servidor contamos con NodeJs y MongoDb como Web Server y Base de Datos NoSql respectivamente.  
 
 ✅ Tecnología relevante:  
@@ -76,30 +88,30 @@ Nuestro objetivo fue proporcionar una interfaz que entregase datos en tiempo rea
 - MongoDB
 - Express.js  
 
+Puedes checar el resto de mi experiencia laboral en mi [Perfil de LinkedIn](https://www.linkedin.com/in/alejandrogomezarceo/)
 
+# Habilidades Técnicas
 
-# Skills
-
-- Languages  
+- **Lenguajes**  
   Javascript (ES2022), Typescript, Php, Elixir
 
-- Front End Frameworks/Libraries  
+- **Librerías o Frameworks de Front End**  
   React, Ractive, Next.js, Material UI
 
-- Back End Frameworks   
+- **Frameworks de Back End**   
   JS -> Node, Express, Next.js  
   Elixir -> Phoenix  
   Php -> Yii  
 
-- Dev Ops tools  
+- **Dev Ops**   
   Vagrant, Docker  
 
-- Testing tools  
+- **Testing**   
   Jest, Mocha.  
 
-# Education
+# Educación
 
-- ✅ Merida Technological Institute  
-  🏅 Computer Software Engineering  
+- ✅ Instituto Tecnológico de Mérida
+  🏅 Ingeniería en Sistemas Computacionales
   📅 2000 - 2005  
   Merida, Yucatán México.

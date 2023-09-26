@@ -15,7 +15,7 @@ theme = "m10c"
 [[menu.main]]
   identifier = "es"
   name       = "Español"
-  url        = "/index_es"
+  url        = "/es"
 # [[menu.main]]
 #   identifier = "blog"
 #   name       = "Blog"
