@@ -38,18 +38,18 @@ const { frontmatter } = Astro.props
           >
             <Sidebar />
             <div
-              class="post px-4 text-white text-base overflow-auto text-left py-5"
+              class="post px-4 text-white text-sm overflow-auto text-left py-5"
             >
               <slot />
             </div>
           </div>
-          <div class="footer py-3">
+          <div class="footer">
             <div class="h-1 bg-gradient-to-r from-indigo-600"></div>
-            <span class="copyright">
+            <div class="copyright py-3">
               &copy; Powered by <a href="https://astro.build/">Astro</a> and <a
                 href="http://html5up.net">HTML5 UP</a
               >.
-            </span>
+            </div>
           </div>
         </div>
       </div>
