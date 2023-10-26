@@ -31,22 +31,25 @@ const { frontmatter } = Astro.props
       <div id="overlay"></div>
       <div id="main">
         <div
-          class="main-container flex gap-2 justify-between h-screen overflow-auto max-w-5xl bg-gradient-to-r from-indigo-500 from-20% via-indigo-400"
+          class="h-screen flex flex-col justify-between align-middle bg-gradient-to-r from-indigo-500 from-20% via-indigo-400"
         >
-          <Sidebar />
-          <div class="page-body">
+          <div
+            class="main-container flex gap-2 justify-between overflow-auto max-w-5xl"
+          >
+            <Sidebar />
             <div
-              class="post px-4 text-white text-base overflow-auto text-left py-10"
+              class="post px-4 text-white text-base overflow-auto text-left py-5"
             >
               <slot />
             </div>
-            <div class="text-md">
-              <span class="copyright"
-                >&copy; Powered by Astro and <a href="http://html5up.net"
-                  >HTML5 UP</a
-                >.</span
-              >
-            </div>
+          </div>
+          <div class="footer py-3">
+            <div class="h-1 bg-gradient-to-r from-indigo-600"></div>
+            <span class="copyright">
+              &copy; Powered by <a href="https://astro.build/">Astro</a> and <a
+                href="http://html5up.net">HTML5 UP</a
+              >.
+            </span>
           </div>
         </div>
       </div>
