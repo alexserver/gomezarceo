@@ -1,0 +1,60 @@
+---
+import Sidebar from "../components/Sidebar.astro"
+import "../styles/markdown.css"
+const { frontmatter } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Alejandro Gomez Website" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <noscript><link rel="stylesheet" href="/styles/noscript.css" /></noscript>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="bg"></div>
+      <div id="overlay"></div>
+      <div id="main">
+        <div
+          class="main-container flex gap-2 justify-between h-screen overflow-auto max-w-5xl bg-gradient-to-r from-indigo-500 from-20% via-indigo-400"
+        >
+          <Sidebar />
+          <div class="page-body">
+            <div
+              class="post px-4 text-white text-base overflow-auto text-left py-10"
+            >
+              <slot />
+            </div>
+            <div class="text-md">
+              <span class="copyright"
+                >&copy; Powered by Astro and <a href="http://html5up.net"
+                  >HTML5 UP</a
+                >.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<style>
+  #main {
+    font-family: "Montserrat", sans-serif;
+  }
+</style>

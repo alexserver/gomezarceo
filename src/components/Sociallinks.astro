@@ -1,27 +1,40 @@
+---
+interface Props {
+  showResume: boolean
+}
+const { showResume } = Astro.props
+---
 <nav>
   <ul class="flex gap-2 justify-center">
+    {
+      showResume && (
+        <li>
+          <a href="/resume/en" class="icon fa-file">
+            <span class="label">Resume</span>
+          </a>
+        </li>
+      )
+    }
+
     <li>
-      <a href="/resume/en" class="icon fa-file"
-        ><span class="label">Resume</span></a
-      >
-    </li>
-    <li>
-      <a href="#" class="icon brands fa-linkedin-in"
+      <a
+        href="https://www.linkedin.com/in/alejandrogomezarceo/"
+        class="icon brands fa-linkedin-in"
         ><span class="label">LinkedIn</span></a
       >
     </li>
     <li>
-      <a href="#" class="icon brands fa-github"
+      <a href="https://github.com/alexserver" class="icon brands fa-github"
         ><span class="label">Github</span></a
       >
     </li>
     <li>
-      <a href="#" class="icon brands fa-twitter"
+      <a href="https://twitter.com/alexserver" class="icon brands fa-twitter"
         ><span class="label">Twitter</span></a
       >
     </li>
     <li>
-      <a href="#" class="icon solid fa-envelope"
+      <a href="mailto:alejandro@gomezarceo.mx" class="icon solid fa-envelope"
         ><span class="label">Email</span></a
       >
     </li>

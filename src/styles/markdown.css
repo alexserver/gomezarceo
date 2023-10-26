@@ -1,0 +1,39 @@
+#main {
+  /* font-size: 14px; */
+}
+#main .post {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  top: 0;
+}
+
+#main .post * {
+  margin: 0.5em 0;
+}
+#main .post h1,
+#main .post h2 {
+  margin: 2em 0 0.75em;
+}
+#main .post h1 {
+  font-size: 2em;
+  font-weight: 500;
+}
+#main .post h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+#main .post h3 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+#main .post h4 {
+  font-size: 1em;
+  font-weight: 500;
+}
+#main .post ul {
+  list-style: circle;
+  margin-left: 2em;
+}
+#main .post ul li {
+  margin: 0.5em 0;
+}
