@@ -1,9 +1,5 @@
 ---
-interface Props {
-  title: string;
-}
-
-const { title } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <!doctype html>
@@ -17,19 +13,18 @@ const { title } = Astro.props;
     />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <noscript><link rel="stylesheet" href="styles/noscript.css" /></noscript>
-    <title>{title}</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <noscript><link rel="stylesheet" href="/styles/noscript.css" /></noscript>
+    <title>{frontmatter.title}</title>
   </head>
   <body class="is-preload">
     <div id="wrapper">
       <div id="bg"></div>
       <div id="overlay"></div>
       <div id="main">
-        <!-- Header -->
-        <header id="header">
+        <div class="post">
           <slot />
-        </header>
+        </div>
         <!-- Footer -->
         <footer id="footer">
           <span class="copyright"
@@ -53,3 +48,9 @@ const { title } = Astro.props;
     </script>
   </body>
 </html>
+<style>
+  .post {
+    display: block;
+    top: 0;
+  }
+</style>

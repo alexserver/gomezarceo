@@ -1,6 +1,6 @@
 ---
+layout: "../../layouts/MarkdownLayout.astro"
 title: "Hi there!"
-draft: false
 description: "A brief description of me"
 ---
 
