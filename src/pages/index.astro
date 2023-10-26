@@ -1,37 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Sociallinks from "../components/Sociallinks.astro";
 ---
 
 <Layout title="Welcome">
   <h1>Alejandro Gomez</h1>
   <p>Senior Web Engineer | Javascript | React | Remix | Vue</p>
-  <nav>
-    <ul>
-      <li>
-        <a href="/resume/en" class="icon fa-file"
-          ><span class="label">Resume</span></a
-        >
-      </li>
-      <li>
-        <a href="#" class="icon brands fa-linkedin-in"
-          ><span class="label">LinkedIn</span></a
-        >
-      </li>
-      <li>
-        <a href="#" class="icon brands fa-github"
-          ><span class="label">Github</span></a
-        >
-      </li>
-      <li>
-        <a href="#" class="icon brands fa-twitter"
-          ><span class="label">Twitter</span></a
-        >
-      </li>
-      <li>
-        <a href="#" class="icon solid fa-envelope"
-          ><span class="label">Email</span></a
-        >
-      </li>
-    </ul>
-  </nav>
+  <Sociallinks />
 </Layout>
