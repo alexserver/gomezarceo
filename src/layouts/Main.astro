@@ -1,0 +1,55 @@
+---
+import '../styles/main.css'
+import Sidebar from '../components/Sidebar.astro'
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{title}</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Alejandro Gomez - My homepage" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <noscript><link rel="stylesheet" href="styles/noscript.css" /></noscript>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <Sidebar />
+
+    <slot />
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Untitled. All rights reserved.</li><li>
+            Design: <a href="http://html5up.net">HTML5 UP</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script is:inline src="/js/jquery.min.js"></script>
+    <script is:inline src="/js/jquery.scrollex.min.js"></script>
+    <script is:inline src="/js/jquery.scrolly.min.js"></script>
+    <script is:inline src="/js/browser.min.js"></script>
+    <script is:inline src="/js/breakpoints.min.js"></script>
+    <script is:inline src="/js/util.js"></script>
+    <script is:inline src="/js/main.js"></script>
+  </body>
+</html>
