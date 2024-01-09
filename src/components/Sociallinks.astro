@@ -1,41 +1,66 @@
 ---
 interface Props {
-  showResume: boolean
+  showGoogle?: boolean
+  showEmail?: boolean
 }
-const { showResume } = Astro.props
+const { showGoogle = false, showEmail = false } = Astro.props
 ---
-<nav>
-  <ul class="flex gap-2 justify-center">
-    {
-      showResume && (
-        <li>
-          <a href="/resume/en" class="icon fa-file">
-            <span class="label">Resume</span>
-          </a>
-        </li>
-      )
-    }
 
+<nav>
+  <ul class="icons flex gap-2 justify-start">
     <li>
       <a
+        target="_blank"
+        href="https://github.com/alexserver"
+        class="icon brands fa-github"><span class="label">Github</span></a
+      >
+    </li>
+    <li>
+      <a
+        target="_blank"
         href="https://www.linkedin.com/in/alejandrogomezarceo/"
         class="icon brands fa-linkedin-in"
         ><span class="label">LinkedIn</span></a
       >
     </li>
     <li>
-      <a href="https://github.com/alexserver" class="icon brands fa-github"
-        ><span class="label">Github</span></a
+      <a
+        target="_blank"
+        href="https://twitter.com/alexserver"
+        class="icon brands fa-twitter"><span class="label">Twitter</span></a
       >
     </li>
+    {
+      showEmail && (
+        <li>
+          <a
+            target="_blank"
+            href="mailto:alejandro@gomezarceo.mx"
+            class="icon solid fa-envelope"
+          >
+            <span class="label">Email</span>
+          </a>
+        </li>
+      )
+    }
+    {
+      showGoogle && (
+        <li>
+          <a
+            target="_blank"
+            href="https://calendar.app.google/vvHifSEyxM1GLkFi7"
+            class="icon brands fa-google"
+          >
+            <span class="label">Google</span>
+          </a>
+        </li>
+      )
+    }
     <li>
-      <a href="https://twitter.com/alexserver" class="icon brands fa-twitter"
-        ><span class="label">Twitter</span></a
-      >
-    </li>
-    <li>
-      <a href="mailto:alejandro@gomezarceo.mx" class="icon solid fa-envelope"
-        ><span class="label">Email</span></a
+      <a
+        target="_blank"
+        href="https://www.instagram.com/alexserver"
+        class="icon brands fa-instagram"><span class="label">Instagram</span></a
       >
     </li>
   </ul>
