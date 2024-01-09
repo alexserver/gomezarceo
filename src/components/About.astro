@@ -1,16 +1,32 @@
+---
+import Sociallinks from './Sociallinks.astro'
+---
+
 <section id="about" class="wrapper style1 fullscreen fade-up">
   <div class="inner">
     <h1>Hi there</h1>
     <p class="my-2">My name is Alejandro Gómez.</p>
     <p class="my-2">
-      I’m a Senior Web Engineer with a primary focus on Front End Applications.
-      I have over 18 years of experience working with Web Technologies, with a
-      strong emphasis on building User Interfaces.
+      I am a Web Engineer with over 15 years of experience in Web technologies,
+      particularly in Front End.
     </p>
     <p class="my-2">
-      I enjoy building Web Products with a highly skilled team, in a good
-      working culture favoring collaboration and good communication among smart
-      and respectful individuals.
+      I've had the privilege of working for companies that have had a
+      significant impact on the global economy through the internet. These
+      companies have aided the growth of small entrepreneurs, small and
+      medium-sized businesses through the platforms they offer, from AB testing,
+      online reservation applications, to online advertising.
+    </p>
+    <p class="my-2">
+      My greatest passion as a Software Engineer is building high-quality web
+      products. I enjoy getting involved in all stages of development, from
+      project planning, discussions about product specifications, interface
+      design, architecture, and the technology stack, to construction, testing,
+      and implementation.
+    </p>
+    <p class="my-2">
+      I like working through the process from start to finish, prioritizing user
+      experience and product quality.
     </p>
     <p class="my-2">
       I’m an advocate of the Kaizen principle, which promotes the idea that
@@ -18,7 +34,10 @@
       impactful success.
     </p>
     <p class="my-2">My mantra is “Progress, not perfection”.</p>
-    <ul class="actions m-0 mt-8">
+    <div class="mt-5">
+      <Sociallinks showEmail={true} showGoogle={true} />
+    </div>
+    <!-- <ul class="actions m-0 mt-8">
       <li>
         <a
           href="https://www.linkedin.com/in/alejandrogomezarceo/"
@@ -26,6 +45,6 @@
           class="button scrolly">Check my LinkedIn</a
         >
       </li>
-    </ul>
+    </ul> -->
   </div>
 </section>
